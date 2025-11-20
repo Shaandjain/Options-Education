@@ -1,0 +1,28 @@
+{
+  "ticker": "SPY",
+  "underlyingPrice": 500.00,
+  "expirationDate": "2024-04-19",
+  "calls": [
+    {"strike": 480, "bid": 22.50, "ask": 22.80, "volume": 1500, "openInterest": 5000, "impliedVolatility": 0.15},
+    {"strike": 485, "bid": 18.20, "ask": 18.50, "volume": 2000, "openInterest": 6000, "impliedVolatility": 0.16},
+    {"strike": 490, "bid": 14.10, "ask": 14.40, "volume": 2500, "openInterest": 7000, "impliedVolatility": 0.17},
+    {"strike": 495, "bid": 10.30, "ask": 10.60, "volume": 3000, "openInterest": 8000, "impliedVolatility": 0.18},
+    {"strike": 500, "bid": 7.00, "ask": 7.30, "volume": 5000, "openInterest": 12000, "impliedVolatility": 0.19},
+    {"strike": 505, "bid": 4.40, "ask": 4.70, "volume": 4000, "openInterest": 10000, "impliedVolatility": 0.20},
+    {"strike": 510, "bid": 2.50, "ask": 2.80, "volume": 3500, "openInterest": 9000, "impliedVolatility": 0.21},
+    {"strike": 515, "bid": 1.30, "ask": 1.60, "volume": 2000, "openInterest": 5000, "impliedVolatility": 0.22},
+    {"strike": 520, "bid": 0.60, "ask": 0.90, "volume": 1500, "openInterest": 3000, "impliedVolatility": 0.23}
+  ],
+  "puts": [
+    {"strike": 480, "bid": 0.50, "ask": 0.80, "volume": 1000, "openInterest": 3000, "impliedVolatility": 0.15},
+    {"strike": 485, "bid": 0.80, "ask": 1.10, "volume": 1200, "openInterest": 4000, "impliedVolatility": 0.16},
+    {"strike": 490, "bid": 1.30, "ask": 1.60, "volume": 1500, "openInterest": 5000, "impliedVolatility": 0.17},
+    {"strike": 495, "bid": 2.10, "ask": 2.40, "volume": 2000, "openInterest": 6000, "impliedVolatility": 0.18},
+    {"strike": 500, "bid": 3.20, "ask": 3.50, "volume": 4000, "openInterest": 10000, "impliedVolatility": 0.19},
+    {"strike": 505, "bid": 4.80, "ask": 5.10, "volume": 3500, "openInterest": 9000, "impliedVolatility": 0.20},
+    {"strike": 510, "bid": 7.00, "ask": 7.30, "volume": 3000, "openInterest": 8000, "impliedVolatility": 0.21},
+    {"strike": 515, "bid": 9.80, "ask": 10.10, "volume": 2500, "openInterest": 7000, "impliedVolatility": 0.22},
+    {"strike": 520, "bid": 13.20, "ask": 13.50, "volume": 2000, "openInterest": 6000, "impliedVolatility": 0.23}
+  ]
+}
+

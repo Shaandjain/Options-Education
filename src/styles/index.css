@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-off-white text-charcoal font-serif-body antialiased;
+    line-height: 1.7;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif-heading;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl font-bold mb-6;
+    line-height: 1.2;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl font-semibold mb-4 mt-8;
+    line-height: 1.3;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl font-semibold mb-3 mt-6;
+    line-height: 1.4;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl font-semibold mb-2 mt-4;
+  }
+
+  p {
+    @apply mb-4;
+  }
+
+  ul, ol {
+    @apply mb-4 pl-6;
+  }
+
+  li {
+    @apply mb-2;
+  }
+
+  a {
+    @apply text-accent hover:text-accent-dark transition-colors;
+  }
+}
+
+@layer components {
+  .reading-column {
+    @apply max-w-reading mx-auto;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-6;
+    transition: box-shadow 0.2s ease;
+  }
+
+  .card:hover {
+    @apply shadow-md;
+  }
+
+  .callout {
+    @apply bg-blue-50 border-l-4 border-accent p-4 my-6 rounded-r;
+  }
+
+  .callout-warning {
+    @apply bg-amber-50 border-l-4 border-amber-500 p-4 my-6 rounded-r;
+  }
+
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-accent text-white hover:bg-accent-dark;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-200 text-charcoal hover:bg-gray-300;
+  }
+}
+
