@@ -26,7 +26,6 @@ const RiskSimulator: React.FC<RiskSimulatorProps> = ({
   const simulationData = useMemo(() => {
     const data = [{ trade: 0, balance: capital, cumulativeReturn: 0 }];
     let currentBalance = capital;
-    const randomSeed = Math.random() * 1000; // For reproducibility, could use seed
 
     for (let i = 1; i <= numTrades; i++) {
       const tradeSize = currentBalance * (percentPerTrade / 100);

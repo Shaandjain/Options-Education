@@ -72,6 +72,61 @@ The built files will be in the `dist` directory. You can preview the production 
 npm run preview
 ```
 
+## Deployment to Vercel
+
+This project is configured for easy deployment to Vercel.
+
+### Option 1: Deploy via Vercel CLI
+
+1. **Install Vercel CLI:**
+   ```bash
+   npm i -g vercel
+   ```
+
+2. **Deploy:**
+   ```bash
+   vercel
+   ```
+
+3. **Follow the prompts** to link your project and deploy.
+
+### Option 2: Deploy via GitHub Integration (Recommended)
+
+1. **Push your code to GitHub** (already done if you followed the setup)
+
+2. **Go to [vercel.com](https://vercel.com)** and sign in with your GitHub account
+
+3. **Click "Add New Project"**
+
+4. **Import your repository:**
+   - Select `Shaandjain/Options-Education` from your GitHub repositories
+
+5. **Configure the project:**
+   - Vercel will auto-detect Vite
+   - Build Command: `npm run build` (auto-detected)
+   - Output Directory: `dist` (auto-detected)
+   - Install Command: `npm install` (auto-detected)
+
+6. **Click "Deploy"**
+
+7. **Your site will be live** at a URL like `https://options-education.vercel.app`
+
+### Vercel Configuration
+
+The project includes a `vercel.json` file with the following settings:
+- Framework: Vite
+- Build command: `npm run build`
+- Output directory: `dist`
+- SPA routing: Configured to serve `index.html` for all routes
+
+### Custom Domain
+
+After deployment, you can add a custom domain in the Vercel dashboard:
+1. Go to your project settings
+2. Navigate to "Domains"
+3. Add your custom domain
+4. Follow DNS configuration instructions
+
 ## Project Structure
 
 ```
